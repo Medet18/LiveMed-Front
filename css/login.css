@@ -25,10 +25,8 @@ body {
     align-items: center;
 }
 
-/*.logo img {*/
-/*    vertical-align: bottom;*/
-/*}*/
 .header .logo{
+    margin-left: 250px;
     font-size: 1.8rem;
     color:#130f40;
     font-weight: bold;
@@ -40,6 +38,7 @@ body {
 .header .logo a{
     text-decoration: none;
 }
+
 .btn{
     display: inline-block;
     margin-top: 1rem;
@@ -58,137 +57,52 @@ body {
     background: #076750;
 }
 
-.menu {
-    margin-left: 244px;
+.login{
+    overflow: hidden;/*Это помагает когда если картинка больше , тогда картинка обрезалось*/
+    margin: 100px 0;
+}
+.login .container{
+    position: relative;
+    /*padding-bottom: 121px;*/
+    background: #e5f4f2;
+    border-radius: 25px;
+}
+.login .sub-title{
+    margin-bottom: 24px;
+    margin-left: 104px;
 }
 
-.menu ul {
-    list-style: none; /*deleted standard list icons*/
-    display: flex;
+.login-form{
+    max-width: 340px;
+    padding:120px 200px;
 }
-
-.menu-item {
-    margin-right: 75px;
-    /*background: #009379;*/
-}
-
-.menu-item a {
-    font-size: 20px;
-    color: #130f40;
-    text-decoration: none; /*deleted standard link line*/
-}
-
-.menu-item a:hover {
-    /*border-bottom: 2px solid black;*/
-    color: #009379;
-}
-
-.main {
-    background-image: url("../photo/home.webp"); /* 2points means outside of current folder*/
-    background-position: center;
-    background-size: cover;
-    padding: 104px 0 54px 0;
-}
-
-.main-info {
-    max-width: 855px;
-}
-
-.main-title {
-    font-weight: bold;
-    font-size: 80px;
-    line-height: 110%;
-    color: #130f40;
-    margin-bottom: 40px;
-}
-
-.main-text {
-    font-size: 16px;
-    line-height: 130%;
-    color: #130f40;
-    margin-bottom: 40px;
-    max-width: 502px;
-}
-
-.button {
-    padding: 20px;
-    width: 334px;
-    height: 64px;
-    background: #009379;
-    border: 0;
-    border-radius: 45px;
+.login-input{
+    padding: 22px 18px;
+    width: 344px;
+    height: 65px;
+    background: #FFFFFF;
+    border: 1px solid #666666;
+    border-radius: 15px;
     box-sizing: border-box;
-    text-align: center;
 
-    font-weight: bold;
     font-size: 16px;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    /*color will change slowly with" transition"*/
-    transition: background-color .5s;
+    color: #000000;
+    outline: none;
+    margin-bottom: 15px;
+}
+.login-input::placeholder{
+    color: #5D5D5F;
 }
 
-.button:hover {
-    cursor: pointer;
-    background: #076750;
+.login .button{
+    width: 167px;
 }
 
-.services{
-    padding: 50px 0;
-}
-
-.services .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    gap:1.5rem;
-    margin-top: 30px;
-    margin-bottom: 40px;
-}
-
-.services .box-container .box{
-    padding:1rem;
-    border-radius: .5rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-    border:.1rem solid rgba(0,0,0,.1);
-    text-align: center;
-    background: #ffffff;
-}
-
-.services .box-container .box i{
-    height:5rem;
-    width:7rem;
-    line-height: 6rem;
-    border-radius: 30px;
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    /*background: #ffe0dc;*/
-    /*color:#009379;*/
-}
-
-.services .box-container .box h3{
-    /*font-size: 2.2rem;*/
-    font-size: 1.5rem;
-    color:#130f40;
-}
-
-.services .box-container .box p{
-    line-height: 1.8;
-    padding:1rem 0;
-    font-size: 1.4rem;
-    color:#666;
-}
-
-.services .box-container .box:hover{
-    background: #75c2b5;
-}
-
-.services .box-container .box:hover h3{
-    color:#fff;
-}
-
-.services .box-container .box:hover p{
-    color:#eee;
+.login-image{
+    position: absolute;
+    bottom: 0;
+    left: 751px;
+    width: 282px;
 }
 
 
