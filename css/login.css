@@ -68,8 +68,11 @@ body {
     border-radius: 25px;
 }
 .login .sub-title{
-    margin-bottom: 24px;
-    margin-left: 104px;
+    /*margin-bottom: 24px;*/
+    /*margin-left: 104px;*/
+    text-align: center;
+    margin: 24px;
+    color: #130f40;
 }
 
 .login-form{
@@ -100,7 +103,7 @@ body {
 
 .login-image{
     position: absolute;
-    bottom: 0;
+    bottom: 15px;
     left: 751px;
     width: 282px;
 }
