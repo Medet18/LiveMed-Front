@@ -108,6 +108,18 @@ body {
     width: 282px;
 }
 
+span::after {
+    padding-left: 5px;
+}
+
+input:invalid + span::after {
+    content: "✖";
+}
+
+input:valid + span::after {
+    content: "✓";
+}
+
 
 .new{
     overflow: hidden;/*Это помагает когда если картинка больше , тогда картинка обрезалось*/
