@@ -128,15 +128,15 @@ body {
 .recepts h3{
     margin: 15px;
     padding: 10px;
-    color: #130f40;
+    color: #75c2b5;
     font-size: 23px;
 }
 .recepts .left a{
     text-decoration: none;
-    color: #009379;
+    color: #130f40;
 }
 .recepts a:hover{
-    color: #75c2b5;
+    color: #009379;
 }
 /*.recepts .right h3{*/
 
