@@ -93,7 +93,7 @@ body {
     margin: 15px 0;
     padding: 25px;
     border: 1px solid #E5E5E5;
-    width: 180px;
+    width: 200px;
     border-radius: 20px;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     background: #ffffff;
@@ -111,35 +111,44 @@ body {
 
 
 .recepts .container{
-    padding: 5px;
-}
-.recepts-lists{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 25px 0;
-    padding: 15px;
-    border: 1px solid #E5E5E5;
+    min-height: 1150px;
     border-radius: 20px;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border: 1px solid #E5E5E5;
+    margin-bottom: 40px;
     background: #ffffff;
 }
 
-.recepts h3{
-    margin: 15px;
+.pharm_img {
+    display: flex;
+    justify-content: center;
+}
+.pharm_img img{
+    width: 350px;
+    height: 300px;
+}
+.pharm_info{
+    margin: 50px 50px;
+}
+.pharm_info h1{
     color: #130f40;
-    font-size: 23px;
+    padding: 30px 25px;
 }
-.recepts .left a{
-    text-decoration: none;
-    color: #009379;
+.back_fone{
+    display: flex;
+    justify-content: space-between;
 }
-.recepts a:hover{
-    color: #75c2b5;
+.back_fone .button{
+    margin: 140px 50px;
 }
-/*.recepts .right h3{*/
-
-/*}*/
+.pharm_qr{
+    /*display: flex;*/
+    float: right;
+}
+.pharm_qr img{
+    width: 320px;
+    height: 320px;
+    margin: 30px;
+}
 
 
 .footer{
