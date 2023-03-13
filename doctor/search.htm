@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
-    <link rel="stylesheet" href="css/index.css">
+
+    <link rel="stylesheet" href="../css/search.css">
+    <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
@@ -25,11 +27,11 @@
                 </li>
 
                 <li class="menu-item">
-                    <a href="#cars">Запись</a>
+                    <a href="#">Запись</a>
                 </li>
 
                 <li class="menu-item">
-                    <a href="#price">Получить рецепт</a>
+                    <a href="#">Получить рецепт</a>
                 </li>
                 <li class="menu-item">
                     <a href="#">City</a>
@@ -40,78 +42,54 @@
         <!--        <div class="cities">-->
         <!--            <button class="btn">City</button>-->
         <!--        </div>-->
-        <div id="login-btn">
-            <button class="btn">login</button>
+        <div class="login-btn">
+            <button class="button">login</button>
         </div>
 
 
     </div>
 </header>
 
-<section class="main">
+<section class="search">
     <div class="container">
-        <div class="main-info">
-            <h1 class="main-title">Безапосное лекарство</h1>
-            <div class="main-text">
-                В нашем клубе имеется солидная коллекция спортивных автомобилей — от достаточно распространенных
-                серийных машин до настоящего гоночного эксклюзива. Воспользуйтесь уникальной возможностью побывать за
-                рулем настоящей легенды и узнать, на что она способна за пределами гоночной трассы!
-            </div>
-            <div class="main-action">
-                <button class="button" id="main-action">Смотреть</button>
-            </div>
-
+        <div class="poisk">
+            <form action="#" class="price-form">
+                <input type="number" class="price-input" name="iin" id="" placeholder="IIN" min="12">
+                <button class="button">search</button>
+            </form>
         </div>
+
+        <div class="res">
+            <div class="title">
+                <h1>The name of product</h1>
+                <p>Product №1</p>
+                <p>Product №1</p>
+                <p>Product №1</p>
+            </div>
+            <div class="title">
+                <h1>The number</h1>
+                <p>5<span>шт</span></p>
+                <p>5<span>шт</span></p>
+                <p>5<span>шт</span></p>
+            </div>
+            <div class="title">
+                <h1>The dosage</h1>
+                <p>13<span>mg</span></p>
+                <p>13<span>mg</span></p>
+                <p>13<span>mg</span></p>
+            </div>
+            <div class="title">
+                <h1>The graphic</h1>
+                <p>open</p>
+                <p>open</p>
+                <p>open</p>
+            </div>
+        </div>
+
     </div>
 </section>
 
-<section class="services" id="services">
-    <div class="container">
 
-        <!--    <h1 class="sub-title"> our <span>services</span> </h1>-->
-
-        <div class="box-container">
-
-            <div class="box">
-                <i class="fas fa-donate" style="background: #ffe0dc; color: #009379;"></i>
-                <h3>Мои рецепты</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>
-            </div>
-
-            <div class="box">
-                <i class="fas fa-hand-holding-medical" style="background: #cce9e4; color: #009379;"></i>
-                <h3>История покупок</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>
-            </div>
-
-            <div class="box">
-                <!-- <i class="fas fa-tools"></i> -->
-                <i class="fas fa-user-graduate" style="background: #fef7e5; color: #009379;"></i>
-
-                <h3>Список лекарств</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>
-            </div>
-
-            <div class="box">
-                <i class="fas fa-hamburger" style="background: #ffe0dc; color: #009379;"></i>
-                <h3>Список аптек</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>
-            </div>
-
-            <div class="box">
-                <i class="fas fa-baby" style="background: #cce9e4; color: #009379;"></i>
-                <h3>Личные данные</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>
-            </div>
-
-            <div class="box">
-                <i class="fas fa-leaf" style="background: #fef7e5; color: #009379;"></i>
-                <h3>Поддержка</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section class="new" id="new">
     <div class="container">
