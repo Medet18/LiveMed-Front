@@ -99,6 +99,13 @@ body {
     background: #ffffff;
 
 }
+.title a{
+    text-decoration: none;
+}
+.title:hover h2 {
+    color: #75c2b5;
+}
+
 .recept-title h2{
     margin-left: 25px;
     color: #130f40;

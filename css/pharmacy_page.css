@@ -132,11 +132,11 @@ body {
     margin-left: 25px;
     padding: 65px 25px 30px;
     color: #130f40;
-    font-size: 50px;
+    font-size: 30px;
 }
 .pharm_title a{
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     color: #130f40;
     margin-left: 25px;
     padding: 65px 25px 30px;
@@ -144,9 +144,10 @@ body {
 .pharm_title i{
     margin-left: 10px;
     color: #009379;
+    font-size: 25px;
 }
 .pharm_title p{
-    font-size: 30px;
+    font-size: 20px;
     color: #009379;
     margin-left: 25px;
     padding: 2px 25px;

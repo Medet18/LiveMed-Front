@@ -85,20 +85,25 @@ body {
 
 .recept-title .container{
     padding: 5px;
+    display: flex;
+    /*justify-content: center;*/
 }
 
 .title{
     /*display: flex;*/
     /*align-items: center;*/
-    margin: 15px 0;
+    margin: 15px 15px 15px 0;
     padding: 25px;
     border: 1px solid #E5E5E5;
-    width: 180px;
+    width: 200px;
     border-radius: 20px;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     background: #ffffff;
-
+    /*cursor: pointer;*/
 }
+/*.title:hover{*/
+/*    background: ;*/
+/*}*/
 .recept-title h2{
     margin-left: 25px;
     color: #130f40;
@@ -109,6 +114,13 @@ body {
 }
 
 
+#hv:hover h2{
+    color: #75c2b5;
+}
+
+.title a{
+    text-decoration: none;
+}
 
 .recepts .container{
     /*padding: 5px;*/
