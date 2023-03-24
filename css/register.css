@@ -29,10 +29,11 @@ body {
 /*    vertical-align: bottom;*/
 /*}*/
 .header .logo{
-    /*margin-left: 250px;*/
+    /*position: absolute;*/
     font-size: 1.8rem;
     color:#130f40;
     font-weight: bold;
+    margin-bottom: 25px;
 }
 .header .logo span{
     color:#009379;
@@ -42,7 +43,7 @@ body {
     text-decoration: none;
 }
 .login-btn{
-    margin-left: 880px;
+    margin-left: 1070px;
 }
 .login-btn a{
     text-decoration: none;

@@ -29,9 +29,12 @@ body {
 /*    vertical-align: bottom;*/
 /*}*/
 .header .logo{
+    margin-left: 250px;
     font-size: 1.8rem;
     color:#130f40;
     font-weight: bold;
+    position: absolute;
+    margin-bottom: 35px;
 }
 .header .logo span{
     color:#009379;
@@ -100,13 +103,24 @@ body {
 
 }
 .recept-title h2{
-    margin-left: 25px;
-    color: #130f40;
+    /*margin-left: 25px;*/
+    margin: auto;
+    /*color: #130f40;*/
+    cursor: pointer;
 }
 .recept-title i {
     font-size: 25px;
-    color: #75c2b5;
+    color: #130f40;
 }
+.title a{
+    text-decoration: none;
+    color: #130f40;
+}
+.title:hover{
+    background: #75c2b5;
+}
+
+
 
 
 

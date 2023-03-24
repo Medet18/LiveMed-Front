@@ -29,9 +29,11 @@ body {
 /*    vertical-align: bottom;*/
 /*}*/
 .header .logo{
+    position: absolute;
     font-size: 1.8rem;
     color:#130f40;
     font-weight: bold;
+    margin-bottom: 25px;
 }
 .header .logo span{
     color:#009379;
@@ -99,6 +101,12 @@ body {
     background: #ffffff;
 
 }
+.title a{
+    text-decoration: none;
+}
+.title:hover h2 {
+    color: #75c2b5;
+}
 .recept-title h2{
     margin-left: 25px;
     color: #130f40;
@@ -133,11 +141,11 @@ body {
     color: #130f40;
     padding: 30px 25px;
 }
-.back_fone{
+.back_fone_qr{
     display: flex;
     justify-content: space-between;
 }
-.back_fone .button{
+.back_fone_qr .button{
     margin: 140px 50px;
 }
 .pharm_qr{

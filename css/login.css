@@ -30,6 +30,8 @@ body {
     font-size: 1.8rem;
     color:#130f40;
     font-weight: bold;
+    position: absolute;
+    margin-bottom: 35px;
 }
 .header .logo span{
     color:#009379;

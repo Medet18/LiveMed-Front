@@ -103,9 +103,7 @@ body {
     background: #ffffff;
     /*cursor: pointer;*/
 }
-/*.title:hover{*/
-/*    background: ;*/
-/*}*/
+
 .recept-title h2{
     margin-left: 25px;
     color: #130f40;
@@ -132,18 +130,10 @@ body {
     margin-bottom: 40px;
     background: #ffffff;
 }
-.recepts .doctor{
-    margin: 25px    ;
-    padding: 25px;
-    width: 230px;
-    background: #009379;
-    border-radius: 20px;
-    color: #130f40;
-    margin-left: auto;
-}
+
 .back_fone{
     min-height: 820px;
-    background:#f8d57e;
+    background:#dbe3ff;
 }
 .back_fone h1{
     margin-left: 25px;
@@ -167,15 +157,17 @@ body {
     border-bottom: 3px solid #130f40;
     padding: 15px;
 }
+
 .pharm_qr{
-    margin-top: 70px;
     float: right;
+    margin-top: 70px;
+
 }
 .pharm_qr img{
     width: 270px;
     height: 270px;
-    /*margin: 25px;*/
 }
+
 
 
 .footer{

@@ -29,9 +29,11 @@ body {
 /*    vertical-align: bottom;*/
 /*}*/
 .header .logo{
+    position: absolute;
     font-size: 1.8rem;
     color:#130f40;
     font-weight: bold;
+    margin-bottom: 25px;
 }
 .header .logo span{
     color:#009379;
@@ -144,9 +146,14 @@ body {
 .recepts a:hover{
     color: #75c2b5;
 }
-/*.recepts .right h3{*/
 
-/*}*/
+.left a{
+    text-decoration: none;
+}
+.left h3{
+    cursor: pointer;
+}
+
 
 
 .footer{

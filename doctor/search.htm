@@ -17,33 +17,11 @@
 <header class="header">
     <div class="container">
         <div class="logo">
-            <a href="#" class="logo"> <span>Live</span>MedKZ </a>
+            <a href="#" id="logo" class="logo" onclick="window.location.reload()"> <span>Live</span>MedKZ </a>
         </div>
 
-        <nav class="menu">
-            <ul>
-                <li class="menu-item">
-                    <a href="#">Главная</a>
-                </li>
-
-                <li class="menu-item">
-                    <a href="#">Запись</a>
-                </li>
-
-                <li class="menu-item">
-                    <a href="#">Получить рецепт</a>
-                </li>
-                <li class="menu-item">
-                    <a href="#">City</a>
-                </li>
-            </ul>
-        </nav>
-
-        <!--        <div class="cities">-->
-        <!--            <button class="btn">City</button>-->
-        <!--        </div>-->
         <div class="login-btn">
-            <button class="button">login</button>
+            <button class="button" onclick="window.location.href='loginDoctor.htm'">login</button>
         </div>
 
 
@@ -96,7 +74,7 @@
         <div class="news">
             <h2 class="sub-title">Новости LiveMedKZ !</h2>
             <div class="news-text">Будьте в курсе новостей с LiveMedKZ</div>
-            <button class="btn" type="button" id="price-action" style="max-width: 250px;">Начать -></button>
+            <button class="button" type="button" id="price-action" style="max-width: 250px;">Начать -></button>
             <div class="circ"></div>
             <div class="circ2"></div>
         </div>
@@ -120,6 +98,7 @@
     </div>
 </footer>
 
-<script src="js/index.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="../js/logo.js"></script>
 </body>
 </html>
